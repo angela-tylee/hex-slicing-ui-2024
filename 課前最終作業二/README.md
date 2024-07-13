@@ -4,3 +4,5 @@
 - Design file: https://xd.adobe.com/spec/934efdb7-a7e4-47d5-572e-efece0914f62-e57f/screen/9ba8ec87-c41b-474f-b92b-d2bb2fc7f922/specs/?fbclid=IwAR15fy4gQca7ZDUNrLwshygmfRsPpVtKRXW-ogWntmWT5WHXRzZ10ZG3Heg
   - Assets: https://github.com/hexschool/webLayoutTraining1st
 - Previous Codepen: https://codepen.io/coding-angela25/pen/abrXoYR?editors=1100
+
+<img width="862" alt="SCR-20240713-kkwk" src="https://github.com/user-attachments/assets/a5a2b7a2-d3bd-4753-bcfb-5070151e8ea6">
