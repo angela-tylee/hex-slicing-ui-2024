@@ -1,6 +1,8 @@
 - Task Link: https://courses.hexschool.com/courses/2020112211/lectures/53653896
 - Precious Codepen: https://codepen.io/coding-angela25/pen/xxNmYYM
 
+<img width="723" alt="SCR-20240713-khcf" src="https://github.com/user-attachments/assets/19ac750c-6990-4e61-9c30-b8b432308a39">
+
 
 1. RESUME 建議使用 h2 呈現
 2. img 的 alt 建議加入相關說明，若圖片失效，使用者能了解大致內容
