@@ -1,0 +1,89 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  font-family: Castoro;
+}
+
+body, h1, h2, p {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5.5em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+.hero {
+  margin-top: 5em;
+}
+
+.hero-img {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero h1:nth-of-type(2) {
+  text-align: right;
+}
+
+.intro {
+  margin-block: 1em 3.5em;
+  padding-block: 2em;
+  background-color: #efefef;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: right;
+}
+
+.intro p {
+  width: 50%;
+}
+
+.content {
+  width: 50%;
+}
+
+.content h2 {
+  color: #ae0000;
+  border-bottom: solid 2px #ae0000;
+  margin-block: 1.2em 0.6em;
+  font-weight: 400;
+}
+
+.content .year {
+  color: #949494;
+  font-style: italic;
+}
+
+.content p {
+  margin-bottom: 1em;
+}
+
+footer {
+  margin: 0;
+  margin-top: 5em;
+  padding-block: 2em; 
+  background-color: black;
+}
+
+.footer-content {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+}
