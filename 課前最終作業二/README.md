@@ -5,4 +5,4 @@
   - Assets: https://github.com/hexschool/webLayoutTraining1st
 - Previous Codepen: https://codepen.io/coding-angela25/pen/abrXoYR?editors=1100
 
-<img width="862" alt="SCR-20240713-kkwk" src="https://github.com/user-attachments/assets/a5a2b7a2-d3bd-4753-bcfb-5070151e8ea6">
+<img width="752" alt="SCR-20240713-kkwk" src="https://github.com/user-attachments/assets/9e924fba-2629-4925-acb3-88c75888df5b">
