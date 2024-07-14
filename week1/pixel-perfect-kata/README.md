@@ -10,7 +10,7 @@
 ![alt text](pixel-perfect-kata.png)
 
 
-- Record
+- Records
   - 1st: 17:02.00
   - 2nd: 17:00.61
   - 3rd: 06:30.22
@@ -24,3 +24,7 @@
   - 11th: 04:13.94
   - 12th: 02:55.50
   - 13th: 02:40.37
+
+
+- Screen Recording
+https://youtu.be/tFtlS0jtAg8
