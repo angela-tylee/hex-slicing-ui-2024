@@ -155,20 +155,3 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
-w100px h20px mt0 mr10 mb20 ml30 pt40 pr50 pb60 pb70 pb80 fz20 fz30px
-c ta ta-c ta:r fw:b ta:l bg bg+ bd bd+ d:b d:i 
-p*2 p*3 p*4 p*5 p*6 p*7 p*8 p*9 p*10 li*2 li*3 li*4 li*5 li*6 div*2 div*3 div*4 div*5 div*6
-ul>li*5>a .header>.logo>a .menu+.content .main>div*3  .footer>p
-d:f fxd fxd:c fxd:cr fxd:r fxd:rr jc jc:c jc:fe jc:fs jc:sa jc:sb ai ai:c ai:fe ai:fs ai:s
-
-.container {
-  width: 100px;
-  text-align: center;
-  text-align: right;
-  font-weight: bold;
-  border: 1px solid #000;
-  display: block;
-  bg+text-shadow:  
-}
-
