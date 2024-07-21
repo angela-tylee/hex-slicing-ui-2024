@@ -4,6 +4,11 @@
   --cream: #FBF2F2;
   --red: #AA0601;
   --dark-red: #650300;
+  --grey: #707070;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
 }
 
 .container {
@@ -14,22 +19,38 @@
 h1, .h1 {
   font-size: 64px;
   line-height: 96px;
+  color: var(--dark-red);
+  font-weight: 700;
 }
 
 h2, .h2 {
   font-size: 48px;
   line-height: 72px;
+  color: var(--dark-red);
+  font-weight: 700;
 }
 
 h3, .h3 {
   font-size: 24px;
   line-height: 36px;
+  color: var(--dark-red);
+  font-weight: 700;
 }
 
 .uppercase-red {
   text-transform: uppercase;
   font-style: italic;
   color: var(--red); 
+}
+
+.p1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.p2 {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 a {
@@ -71,6 +92,11 @@ header .logo img {
   text-align: right;
 }
 
+.section-hero p {
+  font-size: 36px;
+  line-height: 54px;
+}
+
 .section-intro {
   background-color: var(--cream);
   padding-block: 80px;
@@ -80,12 +106,49 @@ header .logo img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  margin-top: 32.33px;
+}
+
+.section-intro h2 {
+  text-align: center;
+}
+
+.section-intro img {
+  width: 33.3%;
+}
+
+.intro-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-card h3 {
+  margin-top: 24.33px;
+}
+
+.intro-card p {
+  margin-top: 8px;
+}
+
+.section-classic {
+  padding-block: 80px;
 }
 
 .section-classic-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  margin-top: 48px;
+}
+
+.section-classic h2,
+.uppercase-red {
+  text-align: center;
+}
+
+.section-classic .uppercase-red {
+  margin-top: 8px;
 }
 
 .classic-card img {
@@ -101,9 +164,15 @@ header .logo img {
   color: #FFFFFF;
 }
 
+.section-collab-content h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
 .section-collab-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
 }
 
 .collab-card img {
@@ -115,15 +184,53 @@ header .logo img {
   background: #FFFFFF;
 }
 
+.section-testimonial {
+  padding-block: 80px;
+}
+
 .section-testimonial-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  margin-top: 48px;
+}
+
+.section-testimonial h2 {
+  text-align: center;
+}
+
+.testimonial-card {
+  height: 511px;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px #00000029;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .testimonial-card > div {
+  height: calc(100% - 335px); 
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.testimonial-card > div {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .testimonial-card img {
   max-width: 100%;
   display: block;
+}
+
+.testimonial-card span {
+  color: var(--grey);
 }
 
 .section-contact {
@@ -134,6 +241,85 @@ header .logo img {
   max-width: 636px;
   margin: 0 auto;
   padding-block: 80px;
+}
+
+.section-contact h2 {
+  text-align: center;
+}
+
+.contact-form-container {
+  margin-top: 48px;
+}
+
+.contact-form {
+  margin-top: 24px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 6px 12px;
+}
+
+.form-control,
+.form-btn {
+  margin-top: 16px;
+}
+
+.contact-form textarea {
+  height: 136px;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="checkbox"] + label{
+  display: inline;
+  width: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form input[type="checkbox"] {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.contact-form input[type="checkbox"]:checked {
+  content: "v";
+  background-color: var(--red);
+  color: #FFFFFF;
+}
+
+.form-control-policy {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+}
+
+.form-btn {
+  width: 380px; /* 66% */
+  display: block;
+  margin-inline: auto;
+  margin-top: 48px;
+  background-color: var(--red);
+  border: none;
+  color: #FFFFFF;
+  padding-block: 16px;
 }
 
 footer {
