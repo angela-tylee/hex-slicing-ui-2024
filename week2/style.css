@@ -1,2 +1,229 @@
 @import "./reset.css";
 
+:root {
+  --green: #00FFA3;
+  --bg-linear: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+h1, .h1 {
+  font-size: 128px;
+  line-height: 192px;
+  font-weight: 400;
+  color: var(--green);
+}
+
+h2, .h2 {
+  font-size: 64px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.p1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.p2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto; 
+}
+
+header {
+  padding-block: 40px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-hero-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin-block: 72px 32px;
+}
+
+.section-hero-text .align-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.section-intro {
+  padding-block: 160px;
+}
+
+.section-intro-content {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 24px;
+}
+
+.section-intro-content p {
+  margin-top: 36px;
+}
+
+.sparkle-group {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.section-intro-img {
+  display: flex;
+  gap: 24px;
+}
+
+.section-about {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-block: 160px;
+}
+
+.section-about-content {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.section-about .about-cards {
+  margin-block: 46px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 24px;
+}
+
+.section-about-text {
+  padding-left: 134px;
+}
+
+.section-about-text p {
+  margin-top: 36px;
+}
+
+.section-about .card {
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-contact {
+  padding-block: 96px;
+}
+
+.section-contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.social-media-icons img {
+  border-radius: 40px;
+}
+
+.social-media-icons img:hover {
+  box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
+
+.section-projects {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding-block: 160px;
+}
+
+.project-heading {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-heading h2 {
+  width: 746px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.projects-grid-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.projects-grid-right-text button {
+  margin-top: auto;
+}
+
+.projects-grid-top-right-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.projects-grid-top-right {
+  display: flex;
+  gap: 24px;
+}
+
+.projects-grid-bottom-right {
+  display: flex;
+  gap: 24px;
+}
+
+footer {
+  padding-block: 40px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 32px;
+  font-family: "Bruno Ace SC", sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-contact {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn-see-more {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-see-more path {
+  fill: #FFFFFF;
+}
