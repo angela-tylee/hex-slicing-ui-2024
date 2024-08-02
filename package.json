@@ -1,0 +1,23 @@
+{
+  "name": "slicing-ui-tasks",
+  "version": "1.0.0",
+  "description": "- [六角學院切版直播班 2024](#六角學院切版直播班-2024)   - [Week 1](#week-1)   - [Week 2](#week-2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.8",
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10"
+  }
+}

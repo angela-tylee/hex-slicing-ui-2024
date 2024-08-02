@@ -1,4 +1,4 @@
-@import './reset.css';
+@import './reset.scss';
 
 :root {
   --cream: #FBF2F2;
@@ -13,8 +13,6 @@ body {
 
 .container {
   max-width: 1362px;
-  /* 67% */
-  /* 1290px */
   margin: 0 auto;
   padding-inline: 36px;
 }
@@ -307,10 +305,14 @@ header .logo img {
   height: 136px;
 }
 
+.form-control-policy {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .contact-form input[type="checkbox"],
 .contact-form input[type="checkbox"]+label {
-  display: inline;
-  width: inherit;
   margin: 0;
   padding: 0;
 }
@@ -329,14 +331,10 @@ header .logo img {
   color: #FFFFFF;
 }
 
-.form-control-policy {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
 .contact-form label {
   margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .form-btn {
@@ -554,6 +552,10 @@ footer {
 
   .form-control-policy {
     align-items: start;
+  }
+
+  .contact-form input[type="checkbox"] {
+    margin-top: 4px;
   }
 
   .form-btn {
