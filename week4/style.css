@@ -1,4 +1,4 @@
-@import './reset.scss';
+@import './_reset.css';
 
 :root {
   --cream: #FBF2F2;
