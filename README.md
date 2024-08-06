@@ -23,6 +23,9 @@
 
 ## Week 3
 
+- Solution URL: https://github.com/angela-tylee/hex-slicing-ui-2024/tree/main/week3
+- Live Site URL: https://angela-tylee.github.io/hex-slicing-ui-2024/week3/
+
 ## Week 4
 
 ### Built with
