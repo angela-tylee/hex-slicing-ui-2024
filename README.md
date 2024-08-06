@@ -26,6 +26,9 @@
 - Solution URL: https://github.com/angela-tylee/hex-slicing-ui-2024/tree/main/week3
 - Live Site URL: https://angela-tylee.github.io/hex-slicing-ui-2024/week3/
 
+<img width="1350" alt="image" src="https://github.com/user-attachments/assets/2a92c8c9-ee1f-4793-ada1-13eae257adfa">
+
+
 ## Week 4
 
 ### Built with
