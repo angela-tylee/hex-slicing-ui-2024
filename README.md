@@ -33,6 +33,8 @@
 
 ### Built with
 
+- Solution URL: https://github.com/angela-tylee/hex-slicing-ui-2024-vite/tree/main/pages/week4
+
 - Vite
   - gh-page
 - Sass
